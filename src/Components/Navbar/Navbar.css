@@ -1,0 +1,59 @@
+#navbar{
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid rgb(75, 75, 75);
+    display: flex;
+    align-items: center;
+}
+#leftSection,#hiddenContent{
+    display: block;
+    background-color: gray;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    padding: 10px;
+    background:  #f8f8fa;;
+    border: 1px solid silver;
+    border-radius: 10px;
+    cursor:default;
+    
+}
+#hiddenContent{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+}
+#leftSection p{
+    font-size: 20px;
+    margin:0px 5px;
+}
+#adjust{
+    font-size: 22px;
+}
+#drop >*{
+   padding: 3px 0px;
+    font-size: 12px;
+}
+button{
+    border: none;
+    background-color: none;
+}
+#hiddenContent{
+   display: none;
+}
+.selectGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+.selectStyle{
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}

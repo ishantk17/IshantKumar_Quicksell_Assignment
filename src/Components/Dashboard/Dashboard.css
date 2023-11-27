@@ -1,0 +1,14 @@
+.mainDiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height:800px;
+}
+.dashNav {
+    margin-bottom: 20px;
+}
+
+

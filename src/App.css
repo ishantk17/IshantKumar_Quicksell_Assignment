@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#AppComponent{
+    background-color: rgb(200, 200, 200);
+    /* height: 100%; */
+}
+#dashboard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#dashNav{
+    display: flex;
+    justify-content: space-around;
+}

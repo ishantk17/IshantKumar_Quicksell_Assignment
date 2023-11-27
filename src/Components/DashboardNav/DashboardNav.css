@@ -1,0 +1,29 @@
+#dashNavInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.ic {
+    margin-right: 10px;
+}
+
+#cnt {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.icon{
+    font-size: 20px;
+}
+#cnt{
+    color: gray
+}

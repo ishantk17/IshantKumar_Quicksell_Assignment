@@ -7,7 +7,8 @@ function Main() {
   const [displayData, setDisplayData]=useState([]);
   const [Group,setGroup]=useState("");
   useEffect(() => {
-    console.log("entered");
+    //fetching data from given api and storing all of the data in navData group wise and displaydata is one which is to be displayed on the app 
+    //initially display data will be grouped according to status
     const fetchData = async () => {
       const response = await fetch('https://api.quicksell.co/v1/internal/frontend-assignment');
       const tempData = await response.json();
@@ -53,8 +54,10 @@ function Main() {
   
   return (
     <div id='AppComponent'>
+        {/*passing setter for display data to navbar so that based on button click and events it could return the exact data which needs to be displayed on the app , for ordering displaydata is sent to navbar so that it could sort it there based on what ordeing user wants and return that data to main*/}
         <Navbar Navdata={navData} setDisplayData={setDisplayData} displayData={displayData} setGroup={setGroup}/>
         <div id='dashboard'>
+          {/* main will further pass those data to dashboard and dashboard will simply display the data */}
           <Dashboard DisplayData={displayData} group={Group}/>
         </div>
     </div>

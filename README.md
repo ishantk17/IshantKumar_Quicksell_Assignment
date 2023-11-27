@@ -1,31 +1,53 @@
-# Getting Started with Create React App
+## Ishant Kumar QuickSell Assignment 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Kanban Board application is a project management tool that leverages the power of the Kanban methodology to help teams organize and manage their work efficiently. Built using React, a declarative and component-based JavaScript library, this application provides a dynamic and responsive user interface for visualizing and tracking tasks through different stages of a project.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+Install my-project with npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  npm install my-project
+  cd Ishant-quicksell-assignment
+```
+    
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **HTML**: Used for structuring the web pages.
+- **CSS**: Applied for styling and layout design.
+- **JavaScript**: Implemented for client-side scripting and interactivity.
+- **ReactJS**: A JavaScript library for building user interfaces, used for building the front-end of this project.
 
-### Working
-1. fetched the data using fetch api and stored it in a array , data was stored according to group
-2. created various states like group (to fetch which group user wants to display i.e. status , priority , user ) , displayData(the actual data which we display on our app) 
-3. sent setter for display data to navbar from main component and based on button click it will set the display data 
-4. this display data is further sent to dashboard from main component which in return display the data on our app
-5. icons and data are dynamically changed based on group and its tag
-6. for ordering used sorting function to sort the display data and send it back to main component and main component sends it to dashboard to display the data
-7. as asked the application should save the user's view state even after page reload, use local storage to store last display data
+# API Used
 
-### screenshots
-![img1](https://github.com/ishantk17/IshantKumar_Quicksell_Assignment/blob/main/assignment%20images/Screenshot%202023-11-27%20153936.png)
-![img2](https://github.com/ishantk17/IshantKumar_Quicksell_Assignment/blob/main/assignment%20images/priority.png)
-![img3](./assignment%20images/Screenshot%202023-11-27%20153936.png)
-![img4](./assignment%20images/userTitle.png)
+This project utilizes the following API for providing {key, value} pairs for different users:
+
+- **API Endpoint**: [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment)
+
+
+
+## Authors
+
+- [@ishantk17](https://github.com/ishantk17)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+## Screenshots
+
+![Image](https://drive.google.com/file/d/1hdLl_mJjOq-KiPO3LDZIq2_Cz-XHNMrH/view?usp=sharing)
+
+![image](https://drive.google.com/file/d/1vCxRSfwr2GpTkFrOUzMnuePALU4YGJxy/view?usp=sharing)
+
+
+
+#### Deployed on Netlify:
+https://ishant-kumar-quicksell-assignment.vercel.app/
 

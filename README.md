@@ -40,14 +40,6 @@ To deploy this project run
   npm run deploy
 ```
 
-## Screenshots
-
-![Image](https://drive.google.com/file/d/1hdLl_mJjOq-KiPO3LDZIq2_Cz-XHNMrH/view?usp=sharing)
-
-![image](https://drive.google.com/file/d/1vCxRSfwr2GpTkFrOUzMnuePALU4YGJxy/view?usp=sharing)
-
-
-
 #### Deployed on Netlify:
 https://ishant-kumar-quicksell-assignment.vercel.app/
 

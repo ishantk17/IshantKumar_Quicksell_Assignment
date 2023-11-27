@@ -40,6 +40,6 @@ To deploy this project run
   npm run deploy
 ```
 
-#### Deployed on Netlify:
+#### Deployed on vercel:
 https://ishant-kumar-quicksell-assignment.vercel.app/
 

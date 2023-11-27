@@ -24,8 +24,8 @@ You may also see any lint errors in the console.
 7. as asked the application should save the user's view state even after page reload, use local storage to store last display data
 
 ### screenshots
-![img1](./assignment%20images/priority.png)
-![img2](./assignment%20images/priorityPriority.png)
+![img1](https://github.com/ishantk17/IshantKumar_Quicksell_Assignment/blob/main/assignment%20images/Screenshot%202023-11-27%20153936.png)
+![img2](https://github.com/ishantk17/IshantKumar_Quicksell_Assignment/blob/main/assignment%20images/priority.png)
 ![img3](./assignment%20images/Screenshot%202023-11-27%20153936.png)
 ![img4](./assignment%20images/userTitle.png)
 
